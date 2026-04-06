@@ -20,7 +20,7 @@ jobs:
       - name: Commit changes
         run: |
           git config --global user.name "Arijit Mahapatro"
-          git config --global user.email "arijitmahapatro@gmail.com"
+          git config --global user.email "arijitmahapatro008@gmail.com"
           git add .
           git commit -m "Auto update $(date)" || echo "No changes"
           git push
